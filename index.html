@@ -15,8 +15,9 @@
         var cell3 = row.insertCell(2);
         cell1.innerHTML = nome;
         cell2.innerHTML = "0";
-        cell3.innerHTML = '<button onclick="addPoint(10, '+length+');" type="button">10</button> <button onclick="addPoint(11, '+length+');" type="button">11</button> <button onclick="addPoint(12, '+length+');" type="button">12</button> <button onclick="addPoint(13, '+length+');" type="button">13</button> <button onclick="addPoint(14, '+length+');" type="button">14</button> <button onclick="addPoint(15, '+length+');" type="button">15</button> <button onclick="addPoint(-1, '+length+');" type="button">-1</button>';
+        cell3.innerHTML = '<button id="buttonpoint" onclick="addPoint(10, '+length+');" type="button">10</button> <button id="buttonpoint" onclick="addPoint(11, '+length+');" type="button">11</button> <button id="buttonpoint" onclick="addPoint(12, '+length+');" type="button">12</button> <button id="buttonpoint" onclick="addPoint(13, '+length+');" type="button">13</button> <button id="buttonpoint" onclick="addPoint(14, '+length+');" type="button">14</button> <button id="buttonpoint" onclick="addPoint(15, '+length+');" type="button">15</button> <button id="buttonpoint" onclick="addPoint(-1, '+length+');" type="button">-1</button>';
 
+ 
       }
 
       function addPoint(point, row) {
